@@ -1,0 +1,84 @@
+body{
+    background-image: url('images/candy.jpg');
+    background-size: cover;
+}
+
+div.form{
+    width: 500px;
+    height: 350p;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+form{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+h1{
+    font-size: xx-large;
+    border-bottom: solid 3px teal;
+    display: inline-block;    
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    border: solid 2px gray;
+    margin-top: 5px;
+    border-radius: 8px;
+    outline: none;
+    font-size: large;
+       
+}
+
+input:hover:not(.signin){
+    border:solid 2px black;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+
+#email{
+    background-image: url('images/mail_message_new.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 7px 4px;
+    padding-left: 45px;
+}
+
+#password{
+    background-image: url('images/key.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 7px 4px;
+    padding-left: 45px;
+}
+
+.signin{
+    background-color: teal;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+.signin:hover{
+    opacity: 0.7;
+}
+
+p.signup{
+    border: solid 3px gray;
+    padding: 0;
+    font-size: larger;
+    border-radius: 8px;
+}
+
+p.signup a{
+    color: black;
+    text-decoration: none;
+}
+p.signup:hover{
+    border: solid 3px teal;
+}
